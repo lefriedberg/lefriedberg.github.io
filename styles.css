@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open-Sans', sans-serif; /* Default font for body text */
+    background-color: #FFF9D6; /* Background color */
+    color: #003162; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #003162; /* Navbar background color */
+    color: #FFF9D6; /* Navbar text color */
+    padding: 15px 20px; /* Increased padding for balance */
+    font-family: 'Alice', serif; /* Apply Alice font to navbar */
+    font-size: 18px; /* Increased font size */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Increased margin between items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF9D6; /* Navbar link color */
+    font-family: 'Alice', serif; /* Apply Alice font to navbar links */
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.blog-list li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.blog-list a {
+    text-decoration: none;
+    color: #003162; /* Link color */
+    font-family: 'Alice', serif; /* Apply Alice font to blog post titles */
+    font-size: 20px; /* Adjust font size for titles */
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
+}
+
+/* Apply Alice font to all headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alice', serif; /* Apply Alice font to all headers */
+    color: #003162; /* Header color */
+}
